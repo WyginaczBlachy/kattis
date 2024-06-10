@@ -1,0 +1,4 @@
+LP
+Problem
+Rozwiązanie
+Trudnośc
