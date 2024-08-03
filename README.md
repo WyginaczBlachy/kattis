@@ -1,5 +1,5 @@
 # Kattis rozwiązania
-Rozwiazania niektórych problemów z [kattis](https://open.kattis.com/problems)
+Rozwiazania problemów z [kattis](https://open.kattis.com/problems)
 
 Zaktualizowano: 03.08.2024
 
