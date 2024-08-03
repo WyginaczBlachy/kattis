@@ -1,7 +1,8 @@
-# Kattis Problem Solution 
-This repository contains with my solutions that solve some problem in [Kattis Problem Archive](https://open.kattis.com/). 
+# Kattis rozwiązania
+Rozwiazania niektórych problemów z [kattis](https://open.kattis.com/problems)
 
-Score updated on: July 06, 2024
+Zaktualizowano: 03.08.2024
 
- | No | Problems Name | Solutions | Difficulty |
- | -- | ------------- | --------- | ---------- |
+ | LP | Problem | Rozwiązanie | Trudność |
+ | -- | ------- | ----------- | -------- |
+ | 1 | [Eye of Sauron](https://open.kattis.com/problems/eyeofsauron) | [Python](
