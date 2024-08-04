@@ -30,6 +30,6 @@ class ListingDirectory:
             solution_code = os.listdir(path)
             for code in solution_code:
                 if self.file_extension_checker(code) == True:
-                    tmp.append(code):
+                    tmp.append(code)
                 source_file[folder] = tmp
             return source_file
