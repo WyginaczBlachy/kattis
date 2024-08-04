@@ -19,4 +19,4 @@ Zaktualizowano: August 04, 2024
 
 
 ## Autor:
-- [Wyginacz Blachy](https://kattis.com/WyginaczBlachy)
+- [zosia2007xoxo](https://open.kattis.com/zosia2007xoxo)
