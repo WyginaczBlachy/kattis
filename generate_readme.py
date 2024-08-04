@@ -7,14 +7,14 @@ inputSource = directory_reader.ListingDirectory('Kattis')
 dictSource = inputSource.make_dictionary()
 
 def linkProblems(problem_name, solution):
-    problem_link = 'https:open.kattis.com/problems/{}'.format(first_problem_solution)
+    problem_link = 'https:open.kattis.com/problems/{}'.format(problem_name)
     return problem_link
 
 def linkSolutions(problem_name, solution):
     if ' ' in problem_name:
         problem_name = problem_name.replace(' ', '%20')
-    link = 'htpps://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/{}/{}'.format(problem_name, solution)
-    extension = none
+    link = 'https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/{}/{}'.format(problem_name, solution)
+    extension = None
     if '.py' in solution:
         extension = 'Python'
     readme.link = '[{}]({})'.format(extension, link)
@@ -34,7 +34,7 @@ def writingReadme(option):
                 f.write(' | LP | Problem | Rozwiązanie |\n')
                 f.write(' | -- | ------- | ----------- |\n')
             for key in dictSource:
-                list_tmp = dictSource([key])
+                list_tmp = dictSource[key]
                 tmp += 1
                 f.write(' | ' + str(tmp))
                 target = list.tmp[0].split('.')
