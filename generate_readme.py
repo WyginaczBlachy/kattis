@@ -71,18 +71,19 @@ def writingReadme(option):
                         f.write(scrapper.getPoints(problem_link))
                         f.write('|')
                         print(problem_link)
-                        print(f"scrapping {tmp} from total {len(dictSource)}")
+                        print(f"pobieranie {tmp} z {len(dictSource)}")
                     f.write('\n')
                 f.write('\n\n')
 
                 f.write('## Autor:\n')
                 f.write('- [zosia2007xoxo](https://open.kattis.com/users/zosia2007xoxo)')
 
-                print('\nREADME.MD Successfully Generated/Updated \n')
-                userExit = input('Press ENTER to exit..')
+                print('\nREADME.MD zaktulizowane pomyślnie \n')
+                userExit = input('Wciśnij ENTER, żeby zakończyć')
         except IOError as e:
             print(f"Error writing to file: {e}")
 
 if __name__ == '__main__':
-    userInput = input("Do you want to show 'Difficulty' or not (y/n)? ")
+    userInput = input("Czy chcesz pokazać poziom trudności? (y/n)? ")
     writingReadme(userInput)
+    
