@@ -19,4 +19,4 @@ Zaktualizowano: August 04, 2024
 
 
 ## Autor:
-- [zosia2007xoxo](https://open.kattis.com//users/zosia2007xoxo)
+- [zosia2007xoxo](https://open.kattis.com/users/zosia2007xoxo)
