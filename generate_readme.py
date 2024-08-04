@@ -2,11 +2,9 @@ import directory_reader
 import kattis_scrapper
 from datetime import date
 
-# Initialize the directory reader with the path to the Kattis directory
 inputSource = directory_reader.ListingDirectory(r'C:\Users\2001s\PycharmProjects\Giraffe\Kattis')
 dictSource = inputSource.make_dictionary()
 
-# Define functions for problem and solution links
 def linkProblems(problem_name):
     problem_link = 'https://open.kattis.com/problems/{}'.format(problem_name)
     return problem_link
@@ -66,7 +64,6 @@ def writingReadme(option):
         except IOError as e:
             print(f"Error writing to file: {e}")
 
-# Main block to call the function
 if __name__ == '__main__':
     userInput = input("Do you want to show 'Difficulty' or not (y/n)? ")
     writingReadme(userInput)
