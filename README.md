@@ -4,7 +4,7 @@ Rozwiazania problemów z [Kattis](https://open.kattis.com/).
 Zaktualizowano: August 04, 2024
 
  | LP | Problem | Rozwiązanie | Trudność |
- | __ | ------- | ----------- | -------- |
+ | -- | ------- | ----------- | -------- |
  | 1 | [3D Printed Statues](https://open.kattis.com/problems/3dprinter) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/3D%20Printed%20Statues/3dprinter.py) |2.6|
  | 2 | [99 Problems](https://open.kattis.com/problems/99problems) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/99%20Problems/99problems.py) |2.8|
  | 3 | [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Basic%20Programming%201/basicprogramming1.py) |1.3 - 4.7|
@@ -18,5 +18,5 @@ Zaktualizowano: August 04, 2024
  | 11 | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Take%20Two%20Stones/twostones.py) |1.2|
 
 
-## Autor:
+## Author:
 - [Wyginacz Blachy](https://open.kattis.com/users/WyginaczBlachy)
