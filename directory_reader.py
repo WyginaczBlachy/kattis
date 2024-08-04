@@ -10,7 +10,7 @@ class ListingDirectory:
             return False
 
         file_target_split = file_target.split('.')
-        target = file_target_split[-1] # get the last part after the last dot
+        target = file_target_split[-1] 
         return target in accepted_extensions
 
     def make_dictionary(self):
@@ -26,8 +26,8 @@ class ListingDirectory:
 
         source_file = {}
         for folder in source_code:
-            folder_path = os.path.join(self.path_file, folder)  # Properly join the path
-            if os.path.isdir(folder_path):  # Only process if it is a directory
+            folder_path = os.path.join(self.path_file, folder)  
+            if os.path.isdir(folder_path): 
                 tmp = []
                 try:
                     solution_code = os.listdir(folder_path)
@@ -36,8 +36,8 @@ class ListingDirectory:
                     continue
 
                 for code in solution_code:
-                    if self.file_extension_checker(code):  # No need to compare with True
-                        tmp.append(code)  # Corrected line here
+                    if self.file_extension_checker(code):  
+                        tmp.append(code)  
                 source_file[folder] = tmp
 
         return source_file
