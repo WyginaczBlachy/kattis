@@ -1,7 +1,7 @@
 # Kattis rozwiązania 
 Rozwiazania problemów z [Kattis](https://open.kattis.com/). 
 
-Zaktualizowano: August 04, 2024
+Zaktualizowano: Sierpień 04, 2024
 
  | LP | Problem | Rozwiązanie | Trudność |
  | -- | ------- | ----------- | -------- |

@@ -2,6 +2,25 @@ import directory_reader
 import kattis_scrapper
 from datetime import date
 
+Tłumaczenia = {
+    'January': 'Styczeń',
+    'February': 'Luty',
+    'March': 'Marzec',
+    'April': 'Kwiecień',
+    'May': 'Maj',
+    'June': 'Czerwiec',
+    'July': 'Lipiec',
+    'August': 'Sierpień',
+    'September': 'Wrzesień',
+    'October': 'Październik',
+    'November': 'Listopad',
+    'December': 'Grudzień'
+}
+current_date = date.today()
+month_name_english = current_date.strftime("%B")
+month_name_polish = Tłumaczenia.get(month_name_english, month_name_english)
+formated_date = current_date.strftime(f"{month_name_polish} %d, %Y")
+
 inputSource = directory_reader.ListingDirectory(r'C:\Users\2001s\PycharmProjects\Giraffe\Kattis')
 dictSource = inputSource.make_dictionary()
 
@@ -27,7 +46,7 @@ def writingReadme(option):
                 tmp = 0
                 f.write('# Kattis rozwiązania \n')
                 f.write('Rozwiazania problemów z [Kattis](https://open.kattis.com/). \n\n')
-                f.write('Zaktualizowano: ' + str(date.today().strftime("%B %d, %Y")) + '\n\n')
+                f.write('Zaktualizowano: ' + formated_date + '\n\n')
                 if option.lower() == 'y':
                     f.write(' | LP | Problem | Rozwiązanie | Trudność |\n')
                     f.write(' | -- | ------- | ----------- | -------- |\n')
