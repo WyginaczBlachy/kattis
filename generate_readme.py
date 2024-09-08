@@ -76,7 +76,7 @@ def writingReadme(option):
                 f.write('\n\n')
 
                 f.write('## Autor:\n')
-                f.write('- [zosia2007xoxo](https://open.kattis.com/users/zosia2007xoxo)')
+                f.write('- [WyginaczBlachy](https://open.kattis.com/users/wyginaczblachy)')
 
                 print('\nREADME.MD zaktulizowane pomyślnie \n')
                 userExit = input('Wciśnij ENTER, żeby zakończyć')
