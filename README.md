@@ -27,7 +27,7 @@ Zaktualizowano: Luty 01, 2025
  | 20 | [Provinces and Gold](https://open.kattis.com/problems/provincesandgold) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Provinces%20and%20Gold/provincesandgold.py) |1.4 (Easy)|
  | 21 | [Quadrant Selection](https://open.kattis.com/problems/quadrant) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Quadrant%20Selection/quadrant.py) |1.2 (Easy)|
  | 22 | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Stuck%20In%20A%20Time%20Loop/timeloop.py) |1.2 (Easy)|
- | 23 | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Take%20Two%20Stones/twostones.py) |1.2 (Easy)|
+ | 23 | [Take Two Stones](https://open.kattis.com/problems/twostones) | [C++](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Take%20Two%20Stones/twostones.cpp), [Python](https://github.com/WyginaczBlachy/Kattis/blob/main/Kattis/Take%20Two%20Stones/twostones.py) |1.2 (Easy)|
 
 
 ## Autor:
