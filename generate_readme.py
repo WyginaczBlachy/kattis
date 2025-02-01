@@ -35,6 +35,8 @@ def linkSolutions(problem_name, solution):
     extension = None
     if '.py' in solution:
         extension = 'Python'
+    if '.cpp' in solution:
+        extension = 'C++'
     readme_link = '[{}]({})'.format(extension, link)
     return readme_link
 
