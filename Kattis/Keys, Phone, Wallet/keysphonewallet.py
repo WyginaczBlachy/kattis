@@ -1,10 +1,10 @@
-qtaz = int(input())
-puzzy = [input().strip() for _ in range(qtaz)]
+obiad = int(input())
+pizza= [input().strip() for _ in range(obiad)]
 szukane = ["phone", "keys", "wallet"]
 szukane_alt = sorted(szukane)
 zabrane = True
 for item in szukane_alt:
-    if item not in puzzy:
+    if item not in pizza:
         print(item)
         zabrane = False
 if zabrane:

@@ -6,9 +6,9 @@ def main(grid, R, C):
             if char != ".":
                 message.append(char)
     return "".join(message)
-def rozpierdol():
+def szymek():
     R, C = map(int, input().split())
     grid = [input().strip() for _ in range(R)]
     secre_message = main(grid, R, C)
     print(secre_message)
-rozpierdol()
+szymek()

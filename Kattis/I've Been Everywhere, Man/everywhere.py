@@ -1,14 +1,14 @@
-kocham = int(input())
-piekne = []
-ladne = []
-for i in range(kocham):
-     kobiety = int(input())
-     for q in range(kobiety):
-         sliczne = input()
-         if sliczne not in piekne:
-             piekne.append(sliczne)
-     ladne.append(len(piekne))
-     piekne.clear()
-for i in range(kocham):
-    print(ladne[i])
+wlochy = int(input())
+slowenia = []
+czechy = []
+for i in range(wlochy):
+     francja = int(input())
+     for q in range(francja):
+         chorwacja = input()
+         if chorwacja not in slowenia:
+             slowenia.append(chorwacja)
+     czechy.append(len(slowenia))
+     slowenia.clear()
+for i in range(wlochy):
+    print(czechy[i])
     

@@ -1,7 +1,7 @@
 N = int(input())
 dni = 1
-cipka = 1
-while N > cipka:
+stat = 1
+while N > stat:
     dni += 1
-    cipka *= 2
+    stat *= 2
 print(dni)

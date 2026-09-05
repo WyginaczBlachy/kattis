@@ -11,25 +11,25 @@ elif t == 2:
     else:
         print("Smaller")
 elif t == 3:
-    eskortka = [A[0], A[1], A[2]]
-    striptizerka = sorted(eskortka)
-    print(striptizerka[1])
+    hmm = [A[0], A[1], A[2]]
+    hmmm = sorted(hmm)
+    print(hmmm[1])
 elif t == 4:
     print(sum(A))
 elif t == 5:
     B = []
-    for traktor in A:
-        if traktor % 2 == 0:
-            B.append(traktor)
+    for piece in A:
+        if piece % 2 == 0:
+            B.append(piece)
     print(sum(B))
 elif t == 6:
-    katarzyna = [num % 26 for num in A]
+    burger = [num % 26 for num in A]
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    marcelina = "".join(alfabet[i] for i in katarzyna)
-    print(marcelina)
+    pizza = "".join(alfabet[i] for i in burger)
+    print(pizza)
 else:
     index = 0
-    oral = set()
+    monke = set()
 
     while True:
         if index < 0 or index >= N:
@@ -40,9 +40,9 @@ else:
             print("Done")
             break
 
-        if index in oral:
+        if index in monke:
             print("Cyclic")
             break
 
-        oral.add(index)
+        monke.add(index)
         index = A[index]

@@ -1,4 +1,4 @@
-def jebanie(list):
+def main(list):
     list = input().split()
     seen = []
     for word in list:
@@ -7,7 +7,7 @@ def jebanie(list):
         seen.append(word)
     return False
 
-if jebanie(list) is True:
+if main(list) is True:
     print("no")
 else:
     print("yes")
