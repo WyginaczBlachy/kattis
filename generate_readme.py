@@ -57,18 +57,25 @@ def writingReadme(option):
                     f.write(' | -- | ------- | ----------- |\n')
                 for key in dictSource:
                     list_tmp = dictSource[key]
+
+                    # Skip empty folders and the .git directory
+                    if not list_tmp or key == '.git':
+                        continue
+
                     tmp += 1
                     f.write(' | ' + str(tmp))
                     target = list_tmp[0].split('.')
                     target = target[0]
                     problem_link = linkProblems(target)
                     f.write(' | [{}]({}) | '.format(key, problem_link))
+
                     for i in range(len(list_tmp)):
                         if i == len(list_tmp) - 1:
                             f.write(linkSolutions(key, list_tmp[i]) + ' ')
                         else:
                             f.write(linkSolutions(key, list_tmp[i]) + ', ')
                     f.write('|')
+
                     if option.lower() == 'y':
                         f.write(scrapper.getPoints(problem_link))
                         f.write('|')
@@ -88,4 +95,3 @@ def writingReadme(option):
 if __name__ == '__main__':
     userInput = input("Czy chcesz pokazać poziom trudności? (y/n)? ")
     writingReadme(userInput)
-    
